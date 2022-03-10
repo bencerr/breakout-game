@@ -8,3 +8,10 @@ canvas {
     display: block;
     margin: 0 auto;
 }
+
+h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+}
