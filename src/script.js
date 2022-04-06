@@ -102,6 +102,11 @@ function resetGame() {
 function updateScore() {
     score++;
     scoreHeader.innerText = "SCORE: " + score;
+    if (score == 16) {
+        alert("YOU WIN!!")
+        document.location.reload();
+        clearInterval(drawInterval);
+    }
 }
 
 document.addEventListener("mousemove", mouseHandler, false);
